@@ -6,6 +6,7 @@ To perform and verify DFT using direct method by SCILAB.
 PC installed with SCILAB
 ## PROGRAM 
 ### DFT DIRECT METHOD
+```
 clc;
 clear;
 clf;
@@ -44,6 +45,8 @@ xtitle("Magnitude Spectrum", "k", "|X(k)|");
 subplot(3,1,3);
 plot2d3(K, phase);
 xtitle("Phase Spectrum", "k", "Phase (radians)")
+
+```
 ### CALCULATIONS:
 <img width="1575" height="1600" alt="image" src="https://github.com/user-attachments/assets/1ba7a228-291d-4b3d-8677-aba1bcf12101" />
 <img width="1000" height="1600" alt="image" src="https://github.com/user-attachments/assets/e1b405f4-0b8a-4aa6-94fe-70b3b31e6b24" />
